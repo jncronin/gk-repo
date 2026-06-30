@@ -1,0 +1,7 @@
+label: dos
+unit: sectors
+sector-size: 512
+
+start=        2048, size=    33554432, type=b
+type=83
+

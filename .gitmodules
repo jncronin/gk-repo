@@ -1,0 +1,3 @@
+[submodule "src/gk-userland"]
+	path = src/gk-userland
+	url = https://github.com/jncronin/gk-userland
