@@ -4,3 +4,6 @@
 [submodule "src/mednafen"]
 	path = src/mednafen
 	url = https://github.com/jncronin/mednafen-git
+[submodule "src/mesa"]
+	path = src/mesa
+	url = https://github.com/jncronin/mesa
