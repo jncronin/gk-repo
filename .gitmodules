@@ -10,3 +10,6 @@
 [submodule "src/sdlgl_test"]
 	path = src/sdlgl_test
 	url = https://github.com/jncronin/sdlgl_test
+[submodule "src/dc"]
+	path = src/dc
+	url = https://github.com/jncronin/DinguxCommander
