@@ -7,3 +7,6 @@
 [submodule "src/mesa"]
 	path = src/mesa
 	url = https://github.com/jncronin/mesa
+[submodule "src/sdlgl_test"]
+	path = src/sdlgl_test
+	url = https://github.com/jncronin/sdlgl_test

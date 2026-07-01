@@ -7,4 +7,4 @@ mkdir -p ${REPOROOT}/base
 
 cmake $CMAKE_OPTS -S ../../src/gk-userland/gk-joycalib -B build-gkrepo
 make -j16 -C build-gkrepo
-cd build-gkrepo && cpack && cp gkjoy-0.1.1-gk.tar.gz ${REPOROOT}/base && cd ../..
+cd build-gkrepo && cpack && cp gkjoy-0.1.1-gk.tar.gz ${REPOROOT}/base && cd ..
