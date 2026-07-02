@@ -67,7 +67,7 @@ function mupen(ret)
 	ret.cpu_freq <- 2000000000;
 
 	ret.img <- "img/n64.png";
-	ret.osd <- "mupen64-osd.ini";
+	ret.osd <- "osd/mupen64-osd.nut";
 
 	return ret;
 }
