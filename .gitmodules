@@ -13,3 +13,6 @@
 [submodule "src/dc"]
 	path = src/dc
 	url = https://github.com/jncronin/DinguxCommander
+[submodule "src/mupen64-combined"]
+	path = src/mupen64-combined
+	url = https://github.com/jncronin/mupen64-combined
