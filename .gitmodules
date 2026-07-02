@@ -16,3 +16,6 @@
 [submodule "src/mupen64-combined"]
 	path = src/mupen64-combined
 	url = https://github.com/jncronin/mupen64-combined
+[submodule "src/amiberry-lite"]
+	path = src/amiberry-lite
+	url = https://github.com/jncronin/amiberry-lite
