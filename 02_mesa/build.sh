@@ -33,3 +33,8 @@ make -j16 -C build-gkrepo/gkgl install
 # combine gkgl_base and libEGL to libGKGL.a
 echo Creating static libGKGL.a
 echo -n -e "create $SYSROOT/usr/lib/libGKGL.a\naddlib $SYSROOT/usr/lib/libgkgl_base.a\naddlib $SYSROOT/usr/lib/libEGL.a\nsave\nend\n" | aarch64-none-gkos-ar -M
+
+# build a OpenGL aware version of SDL2 so we can use its renderer
+echo Building OpenGL-aware SDL2
+cmake $CMAKE_OPTS -DUNIX=ON -DSDL_LIBC=ON -DSDL_PTHREADS=ON -DSDL_THREADS=ON -DSDL_OPENGL=ON -DSDL_OPENGLES=OFF -DSDL_CLOCK_GETTIME=ON -S ../src/gk-userland/SDL2-2.28.5/ -B build-gkrepo/sdl2gl
+make -C build-gkrepo/sdl2gl -j16 install
