@@ -12,6 +12,7 @@ amiberry.hardfile_path=./
 amiberry.middle_mouse=true
 amiberry.soundcard=0
 amiberry.soundcardname=RDP Sink
+amiberry.gfx_auto_crop=true
 ; common
 use_gui=yes
 use_debugger=false

@@ -4,8 +4,8 @@ function amiberry(ret)
 {
     ret.fname <- "/amiberry-lite-5.9.2-gk/bin/amiberry-lite";
     ret.cwd <- "/amiberry-lite-5.9.2-gk";
-	ret.screen_w <- 376;
-	ret.screen_h <- 288;
+	ret.screen_w <- 320;
+	ret.screen_h <- 200;
 	ret.screen_pf <- GK_PIXELFORMAT_ARGB8888;
 
 	ret.keymap <- {
