@@ -83,7 +83,7 @@ b_quit.y = 138;
 b_quit.w = 100;
 b_quit.h = 48;
 b_quit.text = "Quit";
-b_quit.onclick = function(b) { /* sendkeypress(GK_SCANCODE_F12); */ delaykill(); };
+b_quit.onclick = function(b) { sendkeypress(381); delaykill(); };
 
 pause <- function() { sendkeypress(GK_SCANCODE_PAUSE); }
 
@@ -102,4 +102,20 @@ Button(p2, {
 Button(p2, {
     text = "Next Disk",
     onclick = function(b) { sendkeypress(351); }
+});
+Button(p2, {
+    text = "Disk 1",
+    onclick = function(b) { sendkeypress(352); }
+});
+Button(p2, {
+    text = "Disk 2",
+    onclick = function(b) { sendkeypress(353); }
+});
+Button(p2, {
+    text = "Disk 3",
+    onclick = function(b) { sendkeypress(354); }
+});
+Button(p2, {
+    text = "Disk 4",
+    onclick = function(b) { sendkeypress(355); }
 });
