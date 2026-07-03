@@ -32,7 +32,7 @@ function amiberry(ret)
 
 	ret.screen_overwritten_each_frame <- true;
 
-    ret.cpu_freq <- 1800000000;
+    ret.cpu_freq <- 2000000000;
 
 	if(!("params" in ret))
 	{
