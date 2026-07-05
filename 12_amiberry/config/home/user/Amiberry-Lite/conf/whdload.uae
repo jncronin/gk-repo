@@ -1,0 +1,13 @@
+amiberry.gfx_auto_crop=true
+amiberry.cpu_idle=150
+floppy_volume=0
+sound_output=normal
+sound_channels=stereo
+joyport0=kbd1
+joyport0autofire=none
+joyport1=kbd3
+joyport1autofire=none
+gfx_vsync=false
+gfx_lores=true
+gfx_resolution=lores
+gfx_lores_mode=normal
