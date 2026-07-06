@@ -38,7 +38,7 @@ function atarixl(ret)
         "-PixelHeight", "1",
     ]);
 
-    //ret.osd <- "osd/hatari-osd.nut";
+    ret.osd <- "osd/atari++-osd.nut";
 
     return ret;
 }
