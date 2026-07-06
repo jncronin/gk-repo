@@ -19,3 +19,6 @@
 [submodule "src/amiberry-lite"]
 	path = src/amiberry-lite
 	url = https://github.com/jncronin/amiberry-lite
+[submodule "src/hatari"]
+	path = src/hatari
+	url = https://github.com/jncronin/hatari
