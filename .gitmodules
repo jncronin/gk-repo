@@ -22,3 +22,6 @@
 [submodule "src/hatari"]
 	path = src/hatari
 	url = https://github.com/jncronin/hatari
+[submodule "src/atari++"]
+	path = src/atari++
+	url = https://github.com/jncronin/atari--
