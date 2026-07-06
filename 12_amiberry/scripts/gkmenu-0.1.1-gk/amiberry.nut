@@ -52,3 +52,49 @@ function amiberry(ret)
 
     return ret;
 }
+
+function amiberry_diskarray(arr)
+{
+    if(typeof arr == "string")
+    {
+        arr = [ arr ];
+    }
+
+    local ret = [];
+
+    if(arr.len() == 0)
+    {
+        return ret;
+    }
+
+    local disk0 = arr[0];
+
+    ret = [
+        "-0", disk0,
+        "--statefile", disk0 + ".start.uss"
+    ];
+
+    if(arr.len() > 1)
+    {
+        local is_first = true;
+        local arrstr = "";
+
+        foreach(cdisk in arr)
+        {
+            if(is_first)
+            {
+                is_first = false;
+            }
+            else
+            {
+                arrstr = arrstr + ",";
+            }
+
+            arrstr = arrstr + cdisk;
+        }
+
+        ret.append("-diskswapper=\"" + arrstr + "\"");
+    }
+
+    return ret;
+}
