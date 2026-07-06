@@ -103,6 +103,7 @@ Button(p2, {
     text = "Next Disk",
     onclick = function(b) { sendkeypress(351); }
 });
+/*
 Button(p2, {
     text = "Disk 1",
     onclick = function(b) { sendkeypress(352); }
@@ -118,4 +119,16 @@ Button(p2, {
 Button(p2, {
     text = "Disk 4",
     onclick = function(b) { sendkeypress(355); }
-});
+}); */
+Button(p2, {
+    text = "Save Startup State",
+    onclick = function(b)
+    {
+        dialog("Are you sure you want to overwrite startup state",
+        [
+            { text = "OK", onclick = function(b) { sendkeypress(382); } },
+            { text = "Cancel" }
+        ]
+        );
+    }
+})
