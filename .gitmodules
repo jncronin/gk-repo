@@ -25,3 +25,6 @@
 [submodule "src/atari++"]
 	path = src/atari++
 	url = https://github.com/jncronin/atari--
+[submodule "src/pcsx_rearmed"]
+	path = src/pcsx_rearmed
+	url = https://github.com/jncronin/pcsx_rearmed
