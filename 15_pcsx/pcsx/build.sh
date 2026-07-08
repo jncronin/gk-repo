@@ -8,6 +8,7 @@ mkdir -p ${REPOROOT}/pcsx
 # pcsx_rearmed does not support out-of-tree builds
 pushd ../../src/pcsx_rearmed >> /dev/null
 CROSS_COMPILE=aarch64-none-gkos- CFLAGS="-g -DALLOW_LIGHTREC_ON_ARM" ./configure --disable-dynamic --dynarec=lightrec --disable-gles
+make -j16
 popd >> /dev/null
 
 mkdir -p build-gkrepo
