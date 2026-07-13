@@ -29,7 +29,7 @@ pushd build-gkrepo >> /dev/null
 
 BUILDDIR=$(pwd)
 
-PKG_CONFIG_PATH=${SYSROOT}/usr/lib/pkgconfig SDL_CONFIG=${SYSROOT}/usr/bin/sdl-config SDL2_CONFIG=${SYSROOT}/usr/bin/sdl2-config CC=aarch64-none-gkos-gcc CXX=aarch64-none-gkos-g++ ../../../src/dosbox-x/configure --host=aarch64-none-gkos --prefix=$BUILDDIR/dosboxx-gkv4 --disable-sdlnet --disable-x11 --disable-sdl2test --enable-sdl2 --disable-sdl --disable-sdltest --disable-gamelink --disable-opengl --disable-alsatest --disable-printer --disable-xbrz --enable-scaler-full-line --disable-alsa-midi --disable-screenshots --disable-libslirp --enable-libfluidsynth --with-sdl-prefix=${SYSROOT}/usr --with-sdl2-prefix=${SYSROOT}/usr --with-sdl2-exec-prefix=${SYSROOT}/usr --with-sdl-exec-prefix=${SYSROOT}/usr SDL2_CONFIG=${SYSROOT}/usr/bin/sdl2-config PKG_CONFIG_PATH=${SYSROOT}/usr/lib/pkgconfig 
+PKG_CONFIG_PATH=${SYSROOT}/usr/lib/pkgconfig SDL_CONFIG=${SYSROOT}/usr/bin/sdl-config SDL2_CONFIG=${SYSROOT}/usr/bin/sdl2-config CC=aarch64-none-gkos-gcc CXX=aarch64-none-gkos-g++ ../../../src/dosbox-x/configure --host=aarch64-none-gkos --prefix=$BUILDDIR/dosboxx-gkv4 --disable-sdlnet --disable-x11 --disable-sdl2test --enable-sdl2 --disable-sdl --disable-sdltest --disable-gamelink --enable-opengl --disable-alsatest --disable-printer --disable-xbrz --enable-scaler-full-line --disable-alsa-midi --disable-screenshots --disable-libslirp --enable-libfluidsynth --with-sdl-prefix=${SYSROOT}/usr --with-sdl2-prefix=${SYSROOT}/usr --with-sdl2-exec-prefix=${SYSROOT}/usr --with-sdl-exec-prefix=${SYSROOT}/usr SDL2_CONFIG=${SYSROOT}/usr/bin/sdl2-config PKG_CONFIG_PATH=${SYSROOT}/usr/lib/pkgconfig 
 
 make -j16
 make -j16 install
