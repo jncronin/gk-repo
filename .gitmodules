@@ -28,3 +28,6 @@
 [submodule "src/pcsx_rearmed"]
 	path = src/pcsx_rearmed
 	url = https://github.com/jncronin/pcsx_rearmed
+[submodule "src/dosbox-x"]
+	path = src/dosbox-x
+	url = https://github.com/jncronin/dosbox-x
