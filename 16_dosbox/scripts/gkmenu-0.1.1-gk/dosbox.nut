@@ -41,8 +41,9 @@ function dosboxx(ret)
     
     ret.screen_w <- 720;
     ret.screen_h <- 480;
-    ret.screen_pf <- GK_PIXELFORMAT_ARGB8888;
-    ret.screen_overwritten_each_frame <- true;
+    ret.screen_pf <- GK_PIXELFORMAT_RGB565;
+    ret.screen_update_method <- ::GK_SCREEN_UPDATE_PARTIAL_NOREADBACK;
+    //ret.screen_overwritten_each_frame <- true;
     
     ret.left_stick <- ::GK_STICK_JOY0;
     ret.keymap <- {
