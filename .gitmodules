@@ -31,3 +31,6 @@
 [submodule "src/dosbox-x"]
 	path = src/dosbox-x
 	url = https://github.com/jncronin/dosbox-x
+[submodule "src/extremetuxracer"]
+	path = src/extremetuxracer
+	url = https://github.com/jncronin/extremetuxracer
