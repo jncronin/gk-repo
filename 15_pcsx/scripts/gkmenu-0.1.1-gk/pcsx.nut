@@ -43,6 +43,7 @@ function pcsx(ret)
         "-cdfile"
     ]);
 
+    ret.img <- "img/psx.png";
     ret.osd <- "osd/pcsx-osd.nut";
 
     return ret;

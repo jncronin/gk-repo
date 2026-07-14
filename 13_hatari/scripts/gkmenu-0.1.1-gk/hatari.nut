@@ -39,6 +39,7 @@ function hatari(ret)
         "--tos", "/share/hatari/tos102.rom",
     ]);
 
+    ret.img <- "img/atarist.png";
     ret.osd <- "osd/hatari-osd.nut";
 
     return ret;

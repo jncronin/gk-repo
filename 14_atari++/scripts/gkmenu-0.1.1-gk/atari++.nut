@@ -38,6 +38,7 @@ function atarixl(ret)
         "-PixelHeight", "1",
     ]);
 
+    ret.img <- "img/atarixl.png";
     ret.osd <- "osd/atari++-osd.nut";
 
     return ret;

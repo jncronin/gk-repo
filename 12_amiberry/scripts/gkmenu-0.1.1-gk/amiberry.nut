@@ -48,6 +48,7 @@ function amiberry(ret)
         "--log"
     ]);
 
+    ret.img <- "img/amiga.png";
     ret.osd <- "osd/amiberry-osd.nut";
 
     return ret;
