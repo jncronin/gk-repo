@@ -51,7 +51,7 @@
 # Controls the color depth of the OpenGL window
 # 0 = use current bpp setting of operating system,
 # 1 = 16 bpp, 2 = 32 bpp
-  [bpp_mode] 2
+  [bpp_mode] 1
 
 # Tree detail distance
 # Controls how far up the course the trees are drawn crosswise.

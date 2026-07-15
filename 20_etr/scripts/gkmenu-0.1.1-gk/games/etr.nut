@@ -6,7 +6,7 @@ ret.cwd <- "/etr-gk";
 
 ret.screen_w <- 800;
 ret.screen_h <- 480;
-ret.screen_pf <- GK_PIXELFORMAT_ARGB8888;
+ret.screen_pf <- GK_PIXELFORMAT_RGB565;
 
 ret.img <- "img/tuxracer.png";
 ret.cpu_freq <- 1800000000;
