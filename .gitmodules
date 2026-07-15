@@ -34,3 +34,6 @@
 [submodule "src/extremetuxracer"]
 	path = src/extremetuxracer
 	url = https://github.com/jncronin/extremetuxracer
+[submodule "src/neverball"]
+	path = src/neverball
+	url = https://github.com/jncronin/neverball
