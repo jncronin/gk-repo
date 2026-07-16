@@ -37,3 +37,6 @@
 [submodule "src/neverball"]
 	path = src/neverball
 	url = https://github.com/jncronin/neverball
+[submodule "src/chocolate-doom"]
+	path = src/chocolate-doom
+	url = https://github.com/jncronin/chocolate-doom
