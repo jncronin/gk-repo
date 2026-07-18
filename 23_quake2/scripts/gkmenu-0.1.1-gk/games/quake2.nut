@@ -30,9 +30,9 @@ ret.keymap <-
     [GK_KEYSTART] = GK_SCANCODE_RETURN,
     [GK_KEYSELECT] = GK_SCANCODE_ESCAPE,
     [GK_KEYA] = GK_SCANCODE_SPACE,          // jump
-    [GK_KEYB] = GK_SCANCODE_RIGHTBRACKET,   // next item     
-    [GK_KEYY] = GK_SCANCODE_RETURN,            // use item
-    [GK_KEYX] = GK_SCANCODE_LEFTBRACKET,    // prev item
+    [GK_KEYB] = GK_SCANCODE_C,              // crouch    
+    [GK_KEYY] = GK_SCANCODE_RETURN,         // use item
+    [GK_KEYX] = GK_SCANCODE_RIGHTBRACKET,   // next item
 };
 
 games.append(ret);
