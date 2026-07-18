@@ -40,3 +40,6 @@
 [submodule "src/chocolate-doom"]
 	path = src/chocolate-doom
 	url = https://github.com/jncronin/chocolate-doom
+[submodule "src/quake2sdl"]
+	path = src/quake2sdl
+	url = https://github.com/jncronin/quake2sdl
