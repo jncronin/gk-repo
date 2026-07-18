@@ -35,4 +35,6 @@ ret.keymap <-
     [GK_KEYX] = GK_SCANCODE_RIGHTBRACKET,   // next item
 };
 
+ret.cpu_freq <- 2000000000;
+
 games.append(ret);
