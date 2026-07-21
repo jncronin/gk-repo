@@ -43,3 +43,6 @@
 [submodule "src/quake2sdl"]
 	path = src/quake2sdl
 	url = https://github.com/jncronin/quake2sdl
+[submodule "src/chocolate-quake"]
+	path = src/chocolate-quake
+	url = https://github.com/jncronin/chocolate-quake.git
