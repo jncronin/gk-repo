@@ -46,3 +46,6 @@
 [submodule "src/chocolate-quake"]
 	path = src/chocolate-quake
 	url = https://github.com/jncronin/chocolate-quake.git
+[submodule "src/OpenJK"]
+	path = src/OpenJK
+	url = https://github.com/jncronin/OpenJK.git
