@@ -1,11 +1,11 @@
 dofile("game.nut");
 
-local ret = game("JediAcademy", "");
-ret.fname <- "/JediAcademy/openjk_sp.arm64";
-ret.cwd <- "/JediAcademy";
+local ret = game("Jedi Knight 2 - Jedi Outcast", "");
+ret.fname <- "/JediOutcast/openjo_sp.arm64";
+ret.cwd <- "/JediOutcast";
 
 ret.params <- [
-    "+set", "fs_basepath", "/JediAcademy"
+    "+set", "fs_basepath", "/JediOutcast"
 ];
 
 ret.screen_w <- 800;
