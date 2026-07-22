@@ -36,11 +36,11 @@ ret.keymap <-
     [GK_KEYLT] = GK_SCANCODE_LALT,          // alt fire
     [GK_KEYRB] = GK_SCANCODE_F1,            // force push
     [GK_KEYLB] = GK_SCANCODE_F2,            // force pull
-    [GK_KEYSTART] = GK_SCANCODE_RETURN,
+    [GK_KEYSTART] = GK_SCANCODE_RETURN,     // menu + use environment
     [GK_KEYSELECT] = GK_SCANCODE_ESCAPE,
     [GK_KEYA] = GK_SCANCODE_SPACE,          // jump
     [GK_KEYB] = GK_SCANCODE_C,              // crouch    
-    [GK_KEYY] = GK_SCANCODE_RETURN,         // use item
+    [GK_KEYY] = GK_SCANCODE_F7,             // use item
     [GK_KEYX] = GK_SCANCODE_F6,             // next item
 };
 
