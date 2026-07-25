@@ -55,3 +55,6 @@
 [submodule "src/koules"]
 	path = src/koules
 	url = https://github.com/jncronin/koules
+[submodule "src/CnC_and_Red_Alert"]
+	path = src/CnC_and_Red_Alert
+	url = https://github.com/jncronin/CnC_and_Red_Alert
