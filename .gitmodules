@@ -49,3 +49,9 @@
 [submodule "src/OpenJK"]
 	path = src/OpenJK
 	url = https://github.com/jncronin/OpenJK.git
+[submodule "src/ChocolateDescent"]
+	path = src/ChocolateDescent
+	url = https://github.com/jncronin/ChocolateDescent
+[submodule "src/koules"]
+	path = src/koules
+	url = https://github.com/jncronin/koules
