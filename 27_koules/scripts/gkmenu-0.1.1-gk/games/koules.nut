@@ -37,5 +37,7 @@ ret.keymap <-
 
 ret.screen_overwritten_each_frame <- true;
 
+ret.img <- "img/koules.png";
+
 games.append(ret);
 

@@ -42,5 +42,7 @@ ret.keymap <-
 
 ret.screen_overwritten_each_frame <- true;
 
+ret.img <- "img/quake.png";
+
 games.append(ret);
 

@@ -40,5 +40,7 @@ ret.keymap <-
 
 ret.screen_overwritten_each_frame <- true;
 
+ret.img <- "img/redalert.png";
+
 games.append(ret);
 

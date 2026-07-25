@@ -37,4 +37,6 @@ ret.keymap <-
 
 ret.cpu_freq <- 2000000000;
 
+ret.img <- "img/quake2.png";
+
 games.append(ret);

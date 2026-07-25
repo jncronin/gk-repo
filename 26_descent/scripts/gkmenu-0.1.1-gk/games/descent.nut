@@ -40,5 +40,7 @@ ret.keymap <-
 ret.cpu_freq <- 1800000000;
 ret.screen_overwritten_each_frame <- true;
 
+ret.img <- "img/descent.png";
+
 games.append(ret);
 
