@@ -47,5 +47,6 @@ ret.keymap <-
 ret.cpu_freq <- 2000000000;
 
 ret.img <- "img/jk2.png";
+ret.osd <- "osd/jk2.nut";
 
 games.append(ret);
